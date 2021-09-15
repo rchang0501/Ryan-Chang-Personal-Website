@@ -9,7 +9,7 @@ import { BsCircleFill } from "react-icons/bs";
 export const services: Service[] = [
   {
     Icon: RiComputerLine,
-    title: "Frontend Development",
+    title: "Front-End Development",
     about:
       "I can build robust websites using <b> HTML</b>,<b>CSS</b>, and <b>React.js</b> ",
   },
@@ -27,7 +27,7 @@ export const services: Service[] = [
   },
   {
     Icon: FaServer,
-    title: "Backend Development",
+    title: "Back-End Development",
     about:
       "I communicate with databases and servers using <b>GraphQL </b> & <b>Express.js</b>",
   },
