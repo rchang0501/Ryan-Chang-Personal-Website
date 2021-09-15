@@ -38,7 +38,7 @@ const Projects = () => {
       exit="exit"
     >
       <Head>
-        <title>Software Developer | Projects | Ryan Chang</title>
+        <title>Ryan Chang | Projects | Software Developer</title>
       </Head>
 
       <ProjectsNavbar

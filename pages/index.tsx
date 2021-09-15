@@ -26,7 +26,7 @@ const About = ({ endpoint }) => {
       exit="exit"
     >
       <Head>
-        <title>Software Developer | Portfolio | Ryan Chang</title>
+        <title>Ryan Chang | Portfolio | Software Developer</title>
       </Head>
 
       <h6 className="my-3 text-base font-medium">
