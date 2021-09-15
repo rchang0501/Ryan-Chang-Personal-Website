@@ -1,4 +1,10 @@
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillMail, AiFillYoutube } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillMail,
+  AiFillYoutube,
+} from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
@@ -14,7 +20,7 @@ const Sidebar = () => {
   return (
     <>
       <Image
-        src =  "/images/ryanchang.jpg"
+        src="/images/ryanchang.jpg"
         alt="avatar"
         className=" mx-auto border rounded-full "
         height="128px"
@@ -39,13 +45,13 @@ const Sidebar = () => {
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a href="https://www.linkedin.com/in/ryan-chang-25a653197/" >
+        <a href="https://www.linkedin.com/in/ryan-chang-25a653197/" aria-label = "Linkedin">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://github.com/rchang0501">
+        <a href="https://github.com/rchang0501" aria-label = "GitHub">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
         </a>
-        <a href="https://www.youtube.com/channel/UCV2Qn0HdOtAsPBEfr-lJNig">
+        <a href="https://www.youtube.com/channel/UCV2Qn0HdOtAsPBEfr-lJNig" aria-label = "YouTube">
           <AiFillYoutube className="w-8 h-8 cursor-pointer" />
         </a>
       </div>

@@ -11,6 +11,8 @@ import { Service } from "../types";
 import { motion } from "framer-motion";
 import { fadeInUp, routeAnimation, stagger } from "../animations";
 
+import Head from "next/head";
+
 const About = ({ endpoint }) => {
   // console.log(services);
   console.log(endpoint);
@@ -23,6 +25,10 @@ const About = ({ endpoint }) => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Software Developer | Portfolio | Ryan Chang</title>
+      </Head>
+
       <h6 className="my-3 text-base font-medium">
         I'm a first year Systems Design Engineering student at the University of
         Waterloo. I've previously worked at Ontario DECA as the Lead Front-End
