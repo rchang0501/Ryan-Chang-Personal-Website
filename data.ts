@@ -11,7 +11,7 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build robust websites using <b> HTML</b>,<b>CSS</b> and <b>React.js</b> ",
+      "I can build robust websites using <b> HTML</b>,<b>CSS</b>, and <b>React.js</b> ",
   },
   {
     Icon: FaMobile,
