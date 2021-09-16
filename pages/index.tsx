@@ -31,11 +31,10 @@ const About = ({ endpoint }) => {
 
       <h6 className="my-3 text-base font-medium">
         I'm a first year Systems Design Engineering student at the University of
-        Waterloo. I've previously worked at Ontario DECA as the Lead Front-End
-        Developer and Media Provincial Officer, Marc Garneau Collegiate
-        Institute's Student Council as the Vice President and Lead Front-End
-        Developer, and Marc Garneau Collegiate Institute's First Robotics
-        Competition (FRC) Team as the Co-Founder and Lead Programmer.
+        Waterloo. I've previously worked as the Lead Front-End
+        Developer at Ontario DECA as well as Marc Garneau Collegiate
+        Institute's Student Council, and was the Co-Founder of Marc Garneau Collegiate Institute's First Robotics
+        Competition (FRC) Team.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
