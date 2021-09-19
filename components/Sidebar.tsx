@@ -45,13 +45,19 @@ const Sidebar = () => {
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a href="https://www.linkedin.com/in/ryan-chang-25a653197/" aria-label = "Linkedin">
+        <a
+          href="https://www.linkedin.com/in/ryan-chang-25a653197/"
+          aria-label="Linkedin"
+        >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://github.com/rchang0501" aria-label = "GitHub">
+        <a href="https://github.com/rchang0501" aria-label="GitHub">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
         </a>
-        <a href="https://www.youtube.com/channel/UCV2Qn0HdOtAsPBEfr-lJNig" aria-label = "YouTube">
+        <a
+          href="https://www.youtube.com/channel/UCV2Qn0HdOtAsPBEfr-lJNig"
+          aria-label="YouTube"
+        >
           <AiFillYoutube className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
@@ -64,7 +70,7 @@ const Sidebar = () => {
         <div className="flex items-center justify-center">
           <GoLocation className="mr-2" /> <span>Toronto, Ontario </span>
         </div>
-        <p className="my-2 "> r28chang@uwaterloo.ca </p>
+        <p className="my-2 "> ryan.chang@uwaterloo.ca </p>
         <p className="my-2"> (416) 316-5322 </p>
       </div>
 
@@ -72,7 +78,7 @@ const Sidebar = () => {
 
       <button
         className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
-        onClick={() => window.open("mailto:r28chang@uwaterloo.ca")}
+        onClick={() => window.open("mailto:ryan.chang@uwaterloo.ca")}
       >
         Email me
       </button>
