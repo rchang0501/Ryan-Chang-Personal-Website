@@ -147,7 +147,7 @@ export const projects: IProject[] = [
     id: 3,
     name: "International COVID Tracker",
     description:
-      "This app shows a statistical view about corona virus over the world",
+      "COVID-19 case tracker built with React.JS and React Leaflet. Utilizes Chart.JS to read data from the disease.sh API and is set up for hosting on Firebase",
     image_path: "/images/covidtracker.png",
     deployed_url: "",
     github_url: "https://github.com/rchang0501/International-COVID-Tracker",
@@ -170,11 +170,7 @@ export const projects: IProject[] = [
     category: ["app", "machine learning"],
     description:
       "Image Classification App. Uses TensorFlow Image Classification database.",
-    key_techs: [
-      "Kotlin",
-      "TensorFlow.JS",
-      "Android",
-    ],
+    key_techs: ["Kotlin", "TensorFlow.JS", "Android"],
   },
 
   {
@@ -222,11 +218,6 @@ export const projects: IProject[] = [
     category: ["react", "website"],
     description:
       "React.JS agenda app featuring a dynamic UI built with JavaScript, HTML, and CSS, a simple backend using a JSON server, and routing optimizations with react router.",
-    key_techs: [
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS",
-    ],
+    key_techs: ["React", "JavaScript", "HTML", "CSS"],
   },
 ];
