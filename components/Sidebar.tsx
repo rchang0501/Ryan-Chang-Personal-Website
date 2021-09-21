@@ -36,7 +36,7 @@ const Sidebar = () => {
       </p>
       {/* Resume */}
       <a
-        href="https://drive.google.com/file/d/1ZG01856lfUR4gDpZHd1HHNQTHhWtn_s5/view?usp=sharing"
+        href="https://drive.google.com/file/d/1oirj0CXzQc65D8mLRuxhhU0PQkDbS5yt/view?usp=sharing"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
         <GiTie className="w-6 h-6" />
