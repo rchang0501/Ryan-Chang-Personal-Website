@@ -14,7 +14,7 @@ const Sidebar = () => {
   const { theme, setTheme } = useTheme();
 
   const changeTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
+    setTheme(theme === "dark" ? "light" : "dark");
   };
 
   return (
