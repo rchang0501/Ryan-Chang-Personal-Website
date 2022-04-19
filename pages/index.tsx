@@ -30,7 +30,7 @@ const About = ({ endpoint }) => {
       </Head>
 
       <h6 className="my-3 text-base font-medium">
-        I'm a first year Systems Design Engineering student at the University of
+        I'm a Systems Design Engineering student at the University of
         Waterloo. I've previously worked as the Lead Front-End
         Developer at Ontario DECA as well as Marc Garneau Collegiate
         Institute's Student Council, and was the Co-Founder of Marc Garneau Collegiate Institute's First Robotics
