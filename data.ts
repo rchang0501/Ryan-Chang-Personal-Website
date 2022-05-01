@@ -227,6 +227,18 @@ export const projects: IProject[] = [
   },
 
   {
+    id: 13,
+    name: "Portfolio Site",
+    image_path: "/images/portfolio.png",
+    deployed_url: "",
+    github_url: "https://github.com/rchang0501/portfolio-site",
+    category: ["react", "web"],
+    description:
+      "This personal portfolio website built using React, Next js, TypeScript, and Tailwind CSS. Features responsive animations, react routing, and the ability to switch to dark mode.",
+    key_techs: ["React", "TypeScript", "Tailwind CSS", "Next.JS"],
+  },
+
+  {
     id: 7,
     name: "International COVID Tracker",
     description:
