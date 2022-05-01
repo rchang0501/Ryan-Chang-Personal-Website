@@ -23,4 +23,4 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "react" | "app" | "website" | "machine learning";
+export type Category = "react" | "mobile" | "web" | "machine learning";

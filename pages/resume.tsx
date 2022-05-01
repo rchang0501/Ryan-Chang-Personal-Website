@@ -3,7 +3,7 @@ import { languages, tools } from "../data";
 import { motion } from "framer-motion";
 import { fadeInUp, routeAnimation } from "../animations";
 
-import Head from "next/head"; 
+import Head from "next/head";
 
 const Resume = () => {
   return (
@@ -30,18 +30,20 @@ const Resume = () => {
             <p className="my-3">
               I am currently a candidate for a Bachelor of Applied Science
               (BASc) in Systems Design Engineering from the University of
-              Waterloo
+              Waterloo. I've taken Digital Computation and am currently taking Digital Systems and Data Structures & Algorithms
             </p>
           </div>
         </motion.div>
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
-          <h5 className="my-3 text-2xl font-bold">Experience</h5>
+          <h5 className="my-3 text-2xl font-bold">Recent Experience</h5>
           <div className="">
-            <h5 className="my-2 text-xl font-bold">Lead Front-End Developer</h5>
-            <p className="font-semibold">Ontario DECA</p>
+            <h5 className="my-2 text-xl font-bold">Product Developer</h5>
+            <p className="font-semibold">Ford Motors</p>
             <p className="my-3">
-              I redesigned and manged the website for Ontario DECA, the largest
-              DECA associaition in the world with over 15,000 members
+              Owned Kotlin development of Rear 360 Multicamera and
+              Straight Backup visual guidance camera screens for Ford's
+              next-generation in-vehicle infotainment system, that will ship in
+              millions of new Ford and Lincoln electric vehicles
             </p>
           </div>
         </motion.div>
@@ -50,7 +52,7 @@ const Resume = () => {
       {/*Languages & Tools */}
       <div className="grid gap-9 md:grid-cols-2">
         <div>
-          <h5 className="my-3 text-2xl font-bold">Language & Framework</h5>
+          <h5 className="my-3 text-2xl font-bold">Languages</h5>
           <div className="my-2">
             {languages.map((language, i) => (
               <Bar value={language} key={i} />
@@ -59,7 +61,7 @@ const Resume = () => {
         </div>
 
         <div>
-          <h5 className="my-3 text-2xl font-bold">Tools & Softwares</h5>
+          <h5 className="my-3 text-2xl font-bold">Frameworks & Technologies</h5>
           <div className="my-2">
             {tools.map((tool, i) => (
               <Bar value={tool} key={i} />

@@ -30,11 +30,13 @@ const About = ({ endpoint }) => {
       </Head>
 
       <h6 className="my-3 text-base font-medium">
-        I'm a Systems Design Engineering student at the University of
-        Waterloo. I've previously worked as the Lead Front-End
-        Developer at Ontario DECA as well as Marc Garneau Collegiate
-        Institute's Student Council, and was the Co-Founder of Marc Garneau Collegiate Institute's First Robotics
-        Competition (FRC) Team.
+        Hi, I'm Ryan! I'm currently a Systems Design Engineering student at the
+        University of Waterloo. I've previously worked at Ford Motors as a
+        Product Developer for the next generation in-vehicle infotainment
+        Android Open Source Project that will ship in millions of new electric
+        vehicles. I am also currently a Full-Stack Project Developer for UW
+        Blueprint, a design team at the Universtiy of Waterloo that develops and deploys web
+        applications for non-profit organizations.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "

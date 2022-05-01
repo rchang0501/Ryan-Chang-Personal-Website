@@ -12,11 +12,11 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="Software Developer seeking winter 2022 internships"
+            content="Software Developer seeking fall 2022 internships"
           />
           <meta
             name="keywords"
-            content="Front-End Developer, App Developer, Graphic Designer"
+            content="Full-Stack Developer, Mobile App Developer, Graphic Designer"
           />
         </Head>
         <body className="bg-fixed bg-gradient-to-r from-green to-blue-500 dark:from-dark-500 dark:to-dark-700 dark:text-white">

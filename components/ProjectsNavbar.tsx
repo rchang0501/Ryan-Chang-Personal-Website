@@ -24,8 +24,8 @@ const ProjectsNavbar: FunctionComponent<{
     <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none">
       <NavItem value="all" {...props} />
       <NavItem value="react" {...props} />
-      <NavItem value="app" {...props} />
-      <NavItem value="website" {...props} />
+      <NavItem value="mobile" {...props} />
+      <NavItem value="web" {...props} />
       <NavItem value="machine learning" {...props} />
     </div>
   );
