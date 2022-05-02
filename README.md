@@ -1,4 +1,5 @@
 # Portfolio Site
+Personal site built with React and TypeScript optimized for both desktop and mobile use. Features responsive UI with light and dark modes achieved using Next.JS and Tailwind CSS as well as stylistic animations with Framer Motion
 
 ### Checkout my portfolio site deployed on vercel!
 
