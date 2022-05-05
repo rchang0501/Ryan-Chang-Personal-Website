@@ -3,7 +3,7 @@ Personal site built with React and TypeScript optimized for both desktop and mob
 
 ### Checkout my portfolio site deployed on vercel!
 
-https://rchang0501.vercel.app/
+https://www.ryan-chang.me/
 
 ## Preview
 ### Home Page 
