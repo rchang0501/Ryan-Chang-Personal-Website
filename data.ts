@@ -11,7 +11,7 @@ export const services: Service[] = [
     Icon: FaMobile,
     title: "Mobile App Development",
     about:
-      "I can develop robust apps using <b>Kotlin, Java, Swift, React Native & JavaScript/ TypeScript</b>.  ",
+      "I can develop robust apps using <b>Kotlin, Java, Swift, React Native & JavaScript/TypeScript</b>.  ",
   },
   {
     Icon: RiComputerLine,
@@ -41,7 +41,7 @@ export const services: Service[] = [
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
     about:
-      "I solve challenging problems on Leetcode using <b>C++, Java</b>, and <b>Python</b>",
+      "I solve challenging problems on Leetcode and binarysearch using <b>C++, Java</b>, and <b>Python</b>",
   },
 ];
 
@@ -116,7 +116,7 @@ export const tools: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "SwiftUI/ UIKit",
+    name: "SwiftUI/UIKit",
     level: "75",
   },
   {
