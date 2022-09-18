@@ -15,7 +15,7 @@ const Resume = () => {
       exit="exit"
     >
       <Head>
-        <title>Ryan Chang | Resume | Software Developer</title>
+        <title>Ryan Chang | Resume | Software Engineer</title>
       </Head>
 
       {/* //! Education & Experience */}

@@ -32,16 +32,16 @@ const Sidebar = () => {
         <span className="text-blue ">Ryan</span> Chang
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
-        Software Developer
+        Software Engineer
       </p>
       {/* Resume */}
-      <a
+      {/* <a
         href="https://drive.google.com/file/d/15GAzSxPkM4dF78GqpZcpAFnfXJxEjYzD/view?usp=sharing"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
         <GiTie className="w-6 h-6" />
         <span>My Resume</span>
-      </a>
+      </a> */}
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
@@ -70,7 +70,7 @@ const Sidebar = () => {
         <div className="flex items-center justify-center">
           <GoLocation className="mr-2" /> <span>Toronto, Ontario </span>
         </div>
-        <p className="my-2 "> ryan.chang@uwaterloo.ca </p>
+        <p className="my-2 "> ryanchang0501@gmail.com </p>
         <p className="my-2"> (416) 316-5322 </p>
       </div>
 
@@ -78,7 +78,7 @@ const Sidebar = () => {
 
       <button
         className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
-        onClick={() => window.open("mailto:ryan.chang@uwaterloo.ca")}
+        onClick={() => window.open("mailto:ryanchang0501@gmail.com")}
       >
         Email me
       </button>

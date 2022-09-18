@@ -26,12 +26,12 @@ const About = ({ endpoint }) => {
       exit="exit"
     >
       <Head>
-        <title>Ryan Chang | Portfolio | Software Developer</title>
+        <title>Ryan Chang | Portfolio | Software Engineer</title>
       </Head>
 
       <h6 className="my-3 text-base font-medium">
         Hi, I'm Ryan! I'm currently a Systems Design Engineering student at the
-        University of Waterloo. I've previously worked at Ford Motors as a
+        University of Waterloo and a Software Engineer Intern at Relay Financial. I've previously worked at Ford Motors as a
         Product Developer for the next-generation in-vehicle infotainment
         Android Open Source Project that will ship in millions of new electric
         vehicles. I am also currently a Full-Stack Project Developer for UW
