@@ -5,6 +5,7 @@ Personal site built with React and TypeScript optimized for both desktop and mob
 
 https://www.ryan-chang.me/
 
+<!---
 ## Preview
 ### Home Page 
 ![Home](/demo/home.png)
@@ -17,4 +18,4 @@ https://www.ryan-chang.me/
 
 ### Dark Mode 
 ![Resume](/demo/darkmode.png)
-
+-->
