@@ -9,27 +9,27 @@ import { BsCircleFill } from "react-icons/bs";
 export const services: Service[] = [
   {
     Icon: FaMobile,
-    title: "Mobile App Development",
+    title: "Mobile Development",
     about:
-      "I can develop robust apps using <b>Kotlin, Java, Swift, React Native & JavaScript/TypeScript</b>.  ",
+      "I develop robust native and cross-platform apps using <b>Kotlin, Java, Swift, & JavaScript/TypeScript</b>  ",
   },
   {
     Icon: RiComputerLine,
-    title: "Front-End Development",
+    title: "Frontend Development",
     about:
       "I am experienced in building front-end apps using <b>React, JavaScript, TypeScript</b> ",
   },
   {
     Icon: FaServer,
-    title: "Back-End Development",
+    title: "Backend Development",
     about:
-      "I can design database schemas and services using <b>MongoDB, Express, TypeScript</b>",
+      "I design model schemas and services for databases such as <b>MongoDB, PostgreSQL, DynamoDB</b>",
   },
   {
     Icon: AiOutlineAntDesign,
     title: "Machine Learning Development",
     about:
-      "I can create and train machine learning models using <b>Tensorflow</b> and <b>OpenCV</b>",
+      "I create and train machine learning models using <b>PyTorch, Tensorflow</b> and <b>OpenCV</b>",
   },
   {
     Icon: AiOutlineAntDesign,
