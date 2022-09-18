@@ -19,7 +19,8 @@ class MyDocument extends Document {
             content="Software Engineer"
           />
         </Head>
-        <body className="bg-fixed bg-gradient-to-r from-green to-dark-100 dark:from-dark-500 dark:to-dark-700 dark:text-white">
+        {/* edit background here */}
+        <body className="bg-fixed bg-gradient-to-r from-green to-green-700 dark:from-dark-500 dark:to-dark-700 dark:text-white">
           <Main />
           <NextScript />
         </body>
