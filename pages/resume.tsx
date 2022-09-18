@@ -26,11 +26,11 @@ const Resume = () => {
             <h5 className="my-2 text-xl font-bold">
               Systems Design Engineering
             </h5>
-            <p className="font-semibold">University of Waterloo (2021-2026)</p>
+            <p className="font-semibold">University of Waterloo</p>
             <p className="my-3">
               I am currently a candidate for a Bachelor of Applied Science
               (BASc) in Systems Design Engineering from the University of
-              Waterloo. I've taken Digital Computation and am currently taking Digital Systems and Data Structures & Algorithms
+              Waterloo. I've taken Digital Computation (C++ and Python), Digital Systems (VHDL & Assembly), and Data Structures & Algorithms (C++)
             </p>
           </div>
         </motion.div>
