@@ -44,7 +44,7 @@ const Sidebar = () => {
       </a> */}
 
       {/* Socials */}
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
+      <div className="flex justify-around w-9/12 mx-auto my-5 text-accent md:w-full ">
         <a
           href="https://www.linkedin.com/in/rchang0501/"
           aria-label="Linkedin"
@@ -77,14 +77,14 @@ const Sidebar = () => {
       {/* Email Button */}
 
       <button
-        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-green-600 hover:scale-105 focus:outline-none"
+        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-accent to-yellow-600 hover:scale-105 focus:outline-none"
         onClick={() => window.open("mailto:ryanchang0501@gmail.com")}
       >
         Email me
       </button>
       <button
         onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-green-600 focus:outline-none hover:scale-105 "
+        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-accent to-yellow-600 focus:outline-none hover:scale-105 "
       >
         {/* //TODO remove bg black */}
         Switch Theme
