@@ -31,12 +31,20 @@ const About = ({ endpoint }) => {
 
       <h6 className="my-3 text-base font-medium">
         Hi, I'm Ryan! I'm currently a Systems Design Engineering student at the
-        University of Waterloo and a Software Engineer Intern at Relay Financial. I've previously worked at Ford Motors as a
-        Product Developer for the next-generation in-vehicle infotainment
-        Android Open Source Project that will ship in millions of new electric
-        vehicles. I am also currently a Full-Stack Project Developer for UW
-        Blueprint, a design team at the University of Waterloo that develops and deploys web
-        applications for non-profit organizations.
+        University of Waterloo and a Software Engineer Intern at Relay
+        Financial. At Relay Financial, I'm helping rebuild the mobile app's
+        digital wallet feature where our primary customers, small business
+        owners, can modify the debit cards they've created with us and add them
+        to Google/Apple pay. I've previously worked at Ford Motors as a Software
+        Engineering Intern for the next-generation in-vehicle infotainment
+        system's rear-view camera screens built using Android Automotive that
+        will ship in millions of new electric vehicles. In terms of additional
+        involvement, I am currently a Full-Stack Project Developer for UW
+        Blueprint, a design team at the University of Waterloo that develops and
+        deploys web applications for non-profit organizations. Finally, I am
+        also an Executive Director and Machine Learning Developer at WAT.ai,
+        Waterloo's Artificial Intelligence design team where I am helping combat
+        climate change using machine learning.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-300 dark:bg-dark-100 "
