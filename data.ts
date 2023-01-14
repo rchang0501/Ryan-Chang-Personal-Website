@@ -8,6 +8,12 @@ import { BsCircleFill } from "react-icons/bs";
 
 export const services: Service[] = [
   {
+    Icon: FaServer,
+    title: "Backend Development",
+    about:
+      "I design model schemas and services for databases such as <b>MongoDB, PostgreSQL, DynamoDB</b>",
+  },
+  {
     Icon: FaMobile,
     title: "Mobile Development",
     about:
@@ -18,12 +24,6 @@ export const services: Service[] = [
     title: "Frontend Development",
     about:
       "I am experienced in building front-end apps using <b>React, JavaScript, TypeScript</b> ",
-  },
-  {
-    Icon: FaServer,
-    title: "Backend Development",
-    about:
-      "I design model schemas and services for databases such as <b>MongoDB, PostgreSQL, DynamoDB</b>",
   },
   {
     Icon: AiOutlineAntDesign,
@@ -48,43 +48,43 @@ export const services: Service[] = [
 export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Kotlin",
-    level: "90",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Java",
+    name: "TypeScript",
     level: "90",
   },
   {
     Icon: BsCircleFill,
     name: "JavaScript",
-    level: "85",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "TypeScript",
-    level: "85",
+    level: "90",
   },
   {
     Icon: BsCircleFill,
     name: "C++",
-    level: "75",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Swift",
-    level: "70",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
     name: "Python",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Kotlin",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Java",
+    level: "65",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Swift",
     level: "60",
   },
   {
     Icon: BsCircleFill,
     name: "Bash",
-    level: "65",
+    level: "60",
   },
 ];
 
@@ -92,7 +92,7 @@ export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "React",
-    level: "85",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
@@ -101,28 +101,28 @@ export const tools: Skill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "Express.js",
+    level: "75",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Node.js",
+    level: "75",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "AWS",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
     name: "MongoDB",
     level: "70",
   },
   {
     Icon: BsCircleFill,
-    name: "SQLs",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Android Jetpack",
-    level: "85",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "SwiftUI/UIKit",
-    level: "75",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Tensorflow/OpenCV",
-    level: "65",
+    name: "PostgreSQL",
+    level: "70",
   },
   {
     Icon: BsCircleFill,
@@ -134,6 +134,58 @@ export const tools: Skill[] = [
 export const projects: IProject[] = [
   {
     id: 1,
+    name: "Focus on Nature",
+    image_path: "/images/focusonnature.png",
+    deployed_url: "",
+    github_url: "https://github.com/uwblueprint/focus-on-nature",
+    category: ["react", "web"],
+    description:
+      "UW Blueprint Focus on Nature platform for camp booking system. Developed using MERN (MongoDB, Express.JS, React, Node.js) Stack and TypeScript. Leverages Stripe for payment management",
+    key_techs: [
+      "React",
+      "TypeScript",
+      "MongoDB",
+      "Stripe",
+      "Express.JS",
+    ],
+  },
+
+  {
+    id: 14,
+    name: "Omniglot",
+    image_path: "/images/omniglot.png",
+    deployed_url: "",
+    github_url: "https://github.com/rchang0501/open-ai-climate-hack",
+    category: ["react", "web"],
+    description:
+      "3rd Place | OpenAI Hackathon for Climate Change | Omniglot, an ML-powered translator for controllers used in Building Management Systems (BMS)",
+    key_techs: [
+      "React",
+      "TypeScript",
+      "Python",
+    ],
+  },
+
+  {
+    id: 15,
+    name: "Puffer Security",
+    image_path: "/images/puffer_security.png",
+    deployed_url: "",
+    github_url: "https://github.com/rchang0501/puffer-security",
+    category: ["react", "mobile"],
+    description:
+      "Campus help line app designed to protect University of Waterloo students in emergency situations",
+    key_techs: [
+      "React Native",
+      "TypeScript",
+      "PostgreSQL",
+      "Express.JS",
+      "Node.JS",
+    ],
+  },
+
+  {
+    id: 2,
     name: "Auto Atlas",
     image_path: "/images/autoatlas.png",
     deployed_url: "",
@@ -152,7 +204,7 @@ export const projects: IProject[] = [
   },
 
   {
-    id: 2,
+    id: 3,
     name: "Rejuvenate",
     image_path: "/images/rejuvenate.png",
     deployed_url: "",
@@ -164,34 +216,15 @@ export const projects: IProject[] = [
   },
 
   {
-    id: 4,
-    name: "iTrainer",
-    image_path: "/images/itrainer.png",
+    id: 13,
+    name: "Portfolio Site",
+    image_path: "/images/portfolio.png",
     deployed_url: "",
-    github_url: "https://github.com/rchang0501/iTrainer",
-    category: ["mobile"],
-    description:
-      "H.I.I.T. workout iOS app. Leverages SwiftUI and modern Swift development practices. Utilizes SwiftUI components namely navigation stack and modal views for the UI, @State, @binding, @published, and @StateObject annotations for state management as well as data persistence and concurrency, and queues to handle asynchronous tasks.",
-    key_techs: ["iOS", "Swift", "SwiftUI"],
-  },
-
-  {
-    id: 3,
-    name: "Focus on Nature",
-    image_path: "/images/focusonnature.png",
-    deployed_url: "",
-    github_url: "https://github.com/uwblueprint/focus-on-nature",
+    github_url: "https://github.com/rchang0501/portfolio-site",
     category: ["react", "web"],
     description:
-      "UW Blueprint Focus on Nature platform for camp booking system. Developed using MERN (MongoDB, Express.JS, React, Next.JS) Stack and TypeScript. Leverages Stripe for payment management",
-    key_techs: [
-      "React",
-      "TypeScript",
-      "MongoDB",
-      "Stripe",
-      "Express.JS",
-      "Next.JS",
-    ],
+      "This personal portfolio website built using React, Next js, TypeScript, and Tailwind CSS. Features responsive animations, react routing, and the ability to switch to dark mode.",
+    key_techs: ["React", "TypeScript", "Tailwind CSS", "Next.JS"],
   },
 
   {
@@ -207,35 +240,27 @@ export const projects: IProject[] = [
   },
 
   {
-    id: 6,
-    name: "ASL Lens",
-    image_path: "/images/asllens.png",
+    id: 8,
+    name: "Shazam Canvas",
+    image_path: "/images/shazamcanvas.png",
     deployed_url: "",
-    github_url: "https://github.com/rchang0501/ASL-Lens",
-    category: ["react", "machine learning"],
+    github_url: "https://github.com/rchang0501/Shazam-Canvas",
+    category: ["mobile", "machine learning"],
     description:
-      "React.JS App that uses custom-built Tensorflow.JS Object Detection ML Model hosted on IBM Cloud to identify and translate American Sign Language (ASL) to plain English",
-    key_techs: [
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "IBM Cloud",
-      "Tensorflow.JS",
-      "OpenCV",
-    ],
+      "Image Classification App. Uses TensorFlow Image Classification database.",
+    key_techs: ["Kotlin", "TensorFlow.JS", "Android"],
   },
 
   {
-    id: 13,
-    name: "Portfolio Site",
-    image_path: "/images/portfolio.png",
+    id: 4,
+    name: "iTrainer",
+    image_path: "/images/itrainer.png",
     deployed_url: "",
-    github_url: "https://github.com/rchang0501/portfolio-site",
-    category: ["react", "web"],
+    github_url: "https://github.com/rchang0501/iTrainer",
+    category: ["mobile"],
     description:
-      "This personal portfolio website built using React, Next js, TypeScript, and Tailwind CSS. Features responsive animations, react routing, and the ability to switch to dark mode.",
-    key_techs: ["React", "TypeScript", "Tailwind CSS", "Next.JS"],
+      "H.I.I.T. workout iOS app. Leverages SwiftUI and modern Swift development practices. Utilizes SwiftUI components namely navigation stack and modal views for the UI, @State, @binding, @published, and @StateObject annotations for state management as well as data persistence and concurrency, and queues to handle asynchronous tasks.",
+    key_techs: ["iOS", "Swift", "SwiftUI"],
   },
 
   {
@@ -257,15 +282,23 @@ export const projects: IProject[] = [
   },
 
   {
-    id: 8,
-    name: "Shazam Canvas",
-    image_path: "/images/shazamcanvas.png",
+    id: 6,
+    name: "ASL Lens",
+    image_path: "/images/asllens.png",
     deployed_url: "",
-    github_url: "https://github.com/rchang0501/Shazam-Canvas",
-    category: ["mobile", "machine learning"],
+    github_url: "https://github.com/rchang0501/ASL-Lens",
+    category: ["react", "machine learning"],
     description:
-      "Image Classification App. Uses TensorFlow Image Classification database.",
-    key_techs: ["Kotlin", "TensorFlow.JS", "Android"],
+      "React.JS App that uses custom-built Tensorflow.JS Object Detection ML Model hosted on IBM Cloud to identify and translate American Sign Language (ASL) to plain English",
+    key_techs: [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "IBM Cloud",
+      "Tensorflow.JS",
+      "OpenCV",
+    ],
   },
 
   {

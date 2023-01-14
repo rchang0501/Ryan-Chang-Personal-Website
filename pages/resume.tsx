@@ -37,13 +37,11 @@ const Resume = () => {
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Recent Experience</h5>
           <div className="">
-            <h5 className="my-2 text-xl font-bold">Product Developer</h5>
-            <p className="font-semibold">Ford Motors</p>
+            <h5 className="my-2 text-xl font-bold">Software Engineer Intern</h5>
+            <p className="font-semibold">Relay Financial Technologies, Inc.</p>
             <p className="my-3">
-              Owned Kotlin development of Rear 360 Multicamera and
-              Straight Backup visual guidance camera screens for Ford's
-              next-generation in-vehicle infotainment system, that will ship in
-              millions of new Ford and Lincoln electric vehicles
+            Co-owned development of check deposits feature, implemented image capture and verification using Amazon S3, DynamoDB,
+            Redux, React and React Native, successfully handled 7000+ deposits amounting to over $100,000
             </p>
           </div>
         </motion.div>

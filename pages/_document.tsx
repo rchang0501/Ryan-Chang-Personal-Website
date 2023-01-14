@@ -20,7 +20,7 @@ class MyDocument extends Document {
           />
         </Head>
         {/* edit background here */}
-        <body className="bg-fixed bg-gradient-to-r from-accent to-yellow-600 dark:from-dark-500 dark:to-dark-700 dark:text-white">
+        <body className="bg-fixed bg-gradient-to-r from-accent to-green-500 dark:from-dark-500 dark:to-dark-700 dark:text-white">
           <Main />
           <NextScript />
         </body>
