@@ -28,20 +28,21 @@ const About = ({ endpoint }) => {
       <Head>
         <title>Ryan Chang | Portfolio | Software Engineer</title>
       </Head>
-
+      <h6 className="my-3 text-base font-medium">Hi, I'm Ryan!</h6>
       <h6 className="my-3 text-base font-medium">
-        Hi, I'm Ryan! I'm currently a Systems Design Engineering student at the
-        University of Waterloo. I was recently a Software Engineer Intern at
-        Relay Financial Technologies where I helped create a money
-        management platform for small-to-medium businesses. I've previously
-        worked at Ford Motors as a Software Engineering Intern developing their
-        next-generation in-vehicle infotainment system's rear-view camera
-        screens. In terms of additional involvement, I am currently a Project
-        Lead for UW Blueprint, a design team at the University of Waterloo that
-        develops and deploys web applications for non-profit organizations.
-        Finally, I am also an Executive Director and Machine Learning Developer
-        at WAT.ai, Waterloo's Artificial Intelligence design team where I am
-        helping combat climate change using machine learning.
+        I'm currently a Systems Design Engineering student at the University of
+        Waterloo. I was recently a Software Engineer Intern at Bloomberg L.P. on
+        the cloud object storage team. I've previously interned at at Relay
+        Financial Technologies Inc. as a Software Engineer on the Full Stack
+        Team and the Ford Motor Company as a Software Engineer on the vehicle
+        infotainment team.
+      </h6>
+      <h6 className="my-3 text-base font-medium">
+        I am currently an Executive Director and Machine Learning Developer at
+        WAT.ai, Waterloo's Artificial Intelligence design team and was
+        previously a Project Lead for UW Blueprint, a design team at the
+        University of Waterloo that develops and deploys web applications for
+        non-profit organizations.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-300 dark:bg-dark-100 "

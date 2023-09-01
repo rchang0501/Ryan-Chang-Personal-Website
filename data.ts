@@ -1,5 +1,5 @@
 import { RiComputerLine } from "react-icons/ri";
-import { FaServer, FaMobile, FaCamera } from "react-icons/fa";
+import { FaServer, FaMobile, FaCloud, FaBrain } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { IProject, Service, Skill } from "./types";
@@ -8,57 +8,56 @@ import { BsCircleFill } from "react-icons/bs";
 
 export const services: Service[] = [
   {
+    Icon: FaCloud,
+    title: "Distributed Systems & Cloud Infrastructure",
+    about: "Working with Cloud Object Storage using <b>Amazon S3</b> and event streaming using <b>Kafka</b>",
+  },
+  {
     Icon: FaServer,
     title: "Backend Development",
     about:
-      "I design model schemas and services for databases such as <b>MongoDB, PostgreSQL, DynamoDB</b>",
+      "Working with <b>Go</b>, TypeScript, PostgreSQL, Express, GraphQL",
   },
   {
-    Icon: FaMobile,
-    title: "Mobile Development",
-    about:
-      "I develop robust native and cross-platform apps using <b>Kotlin, Java, Swift, & JavaScript/TypeScript</b>  ",
-  },
-  {
-    Icon: RiComputerLine,
-    title: "Frontend Development",
-    about:
-      "I am experienced in building front-end apps using <b>React, JavaScript, TypeScript</b> ",
-  },
-  {
-    Icon: AiOutlineAntDesign,
+    Icon: FaBrain,
     title: "Machine Learning Development",
     about:
-      "I create and train machine learning models using <b>PyTorch, Tensorflow</b> and <b>OpenCV</b>",
-  },
-  {
-    Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
-    about:
-      "I create stunning high-fidelity user interfaces using <b>Figma</b> and <b>Adobe CC</b>",
+      "Exploring deep learning with <b>PyTorch, Tensorflow</b> and <b>OpenCV</b>",
   },
   {
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
     about:
-      "I solve challenging problems on Leetcode and binarysearch using <b>C++, Java</b>, and <b>Python</b>",
+      "Solving problems using <b>C++, Java</b>, and <b>Python</b>",
+  },
+  {
+    Icon: FaMobile,
+    title: "Mobile Development",
+    about:
+      "Developing natively and cross platform using React Native",
+  },
+  {
+    Icon: RiComputerLine,
+    title: "Frontend Development",
+    about:
+      "Build using React, TypeScript, a bit of Angular",
   },
 ];
 
 export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "TypeScript",
-    level: "90",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "JavaScript",
+    name: "Go",
     level: "90",
   },
   {
     Icon: BsCircleFill,
     name: "C++",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Java",
     level: "80",
   },
   {
@@ -68,17 +67,17 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Kotlin",
+    name: "TypeScript",
     level: "70",
   },
   {
     Icon: BsCircleFill,
-    name: "Java",
+    name: "JavaScript",
     level: "65",
   },
   {
     Icon: BsCircleFill,
-    name: "Swift",
+    name: "Kotlin",
     level: "60",
   },
   {
@@ -91,37 +90,37 @@ export const languages: Skill[] = [
 export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "React",
+    name: "Kafka",
     level: "80",
   },
   {
     Icon: BsCircleFill,
-    name: "React Native",
+    name: "Amazon Web Services (AWS)",
     level: "80",
   },
   {
     Icon: BsCircleFill,
-    name: "Express.js",
+    name: "Kubernetes",
     level: "75",
   },
   {
     Icon: BsCircleFill,
-    name: "Node.js",
+    name: "Docker",
     level: "75",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "AWS",
-    level: "70",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "MongoDB",
-    level: "70",
   },
   {
     Icon: BsCircleFill,
     name: "PostgreSQL",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Express",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "React",
     level: "70",
   },
   {
@@ -141,13 +140,7 @@ export const projects: IProject[] = [
     category: ["react", "web"],
     description:
       "UW Blueprint Focus on Nature platform for camp booking system. Developed using MERN (MongoDB, Express.JS, React, Node.js) Stack and TypeScript. Leverages Stripe for payment management",
-    key_techs: [
-      "React",
-      "TypeScript",
-      "MongoDB",
-      "Stripe",
-      "Express.JS",
-    ],
+    key_techs: ["React", "TypeScript", "MongoDB", "Stripe", "Express.JS"],
   },
 
   {
@@ -159,11 +152,7 @@ export const projects: IProject[] = [
     category: ["react", "web"],
     description:
       "3rd Place | OpenAI Hackathon for Climate Change | Omniglot, an ML-powered translator for controllers used in Building Management Systems (BMS)",
-    key_techs: [
-      "React",
-      "TypeScript",
-      "Python",
-    ],
+    key_techs: ["React", "TypeScript", "Python"],
   },
 
   {

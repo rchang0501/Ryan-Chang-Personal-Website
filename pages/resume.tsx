@@ -30,7 +30,8 @@ const Resume = () => {
             <p className="my-3">
               I am currently a candidate for a Bachelor of Applied Science
               (BASc) in Systems Design Engineering from the University of
-              Waterloo. I've taken Digital Computation (C++ and Python), Digital Systems (VHDL & Assembly), and Data Structures & Algorithms (C++)
+              Waterloo. I've taken Digital Computation (C++ and Python), Digital
+              Systems (VHDL & Assembly), and Data Structures & Algorithms (C++)
             </p>
           </div>
         </motion.div>
@@ -38,10 +39,11 @@ const Resume = () => {
           <h5 className="my-3 text-2xl font-bold">Recent Experience</h5>
           <div className="">
             <h5 className="my-2 text-xl font-bold">Software Engineer Intern</h5>
-            <p className="font-semibold">Relay Financial Technologies, Inc.</p>
+            <p className="font-semibold">Bloomberg L.P.</p>
             <p className="my-3">
-            Co-owned development of check deposits feature, implemented image capture and verification using Amazon S3, DynamoDB,
-            Redux, React and React Native, successfully handled 7000+ deposits amounting to over $100,000
+              Owned S3 event notifications system for cloud object storage with
+              using Go, Kafka, Kubernetes. Streamed 6 million+ daily S3 events
+              enabling developers to create data pipelines.
             </p>
           </div>
         </motion.div>
